@@ -8,7 +8,7 @@ const Portfolio = () => {
             <div className=" lg:pl-[36rem] pl-[10rem] md:pl-[20rem]"><button className=" border-solid border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Portfolio</button></div>
            
            </div>
-           <div className="lg:pl-[28rem] py-14">
+           <div className="lg:pl-[28rem] md:pl-48 py-14">
            <div className="carousel w-[24rem]">
   <div id="slide1" className="carousel-item relative w-full">
     <img src="https://i.ibb.co/VTnZBWg/learnme1.jpg" className="h-[60]" />

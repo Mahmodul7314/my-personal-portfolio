@@ -12,7 +12,7 @@ const Education = () => {
             <p>I am also self-learning from Google and YouTube.</p>
 
           <div className="py-3 ">
-          <h2 className="text-lg font-bold  flex items-center "><span><img className="w-20 h-20" src="https://img.freepik.com/premium-vector/graduation-cap-symbol-education-illustration-design_92086-772.jpg?size=626&ext=jpg&uid=R40507079&ga=GA1.1.158317514.1699199683&semt=ais" alt="" /></span>Educational Qualification:</h2>
+          <h2 className="text-lg font-bold  flex items-center "><span><img className="lg:w-20 h-20 w-14" src="https://img.freepik.com/premium-vector/graduation-cap-symbol-education-illustration-design_92086-772.jpg?size=626&ext=jpg&uid=R40507079&ga=GA1.1.158317514.1699199683&semt=ais" alt="" /></span>Educational Qualification:</h2>
             <p>I am currently a BBA graduate student in the Department of Management.</p>
             <p>Student of BBA at Govt. Saadat University College.</p>
          </div>

@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <button className=" border-solid border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">About Me</button>
                 </div>
                <div className="lg:flex lg:flex-row flex-col ">
-               <div className="space-y-2 px-10 w-1/2 py-4">
+               <div className="space-y-2 lg:px-10 px-4 lg:w-1/2 w-full py-4">
               <p className="text-md font-medium text-gray-600"> 
                     I am an accomplished Front-End Developer, dedicated to crafting immersive and intuitive user interfaces. Proficient in HTML, CSS, and JavaScript, with a specialization in React, I excel in building dynamic, component-based applications that prioritize seamless user interactions.
 
@@ -34,13 +34,13 @@ const AboutMe = () => {
                 If you're looking for a Front-End Developer with a blend of expertise, ongoing learning, and practical experience in Firebase user authentication, I encourage you to explore my detailed resume. Let's connect to discuss how my evolving skills can contribute to your projects with precision and dedication to creating exceptional user experiences.</p> */}
 
                 </div>
-                <div className="space-y-3 text-left w-1/2 lg:pl-28 py-4">
-                    <h2 className="text-3xl font-extrabold text-green-500">Personal Information</h2>
-                    <h2 className="text-xl font-bold">Name: <span className="text-lg font medium">Mahmodul Hasan Robin</span></h2>
-                    <h2 className="text-xl font-bold">Age: <span className="text-lg font medium">22 Years</span></h2>
-                     <h2 className="text-xl font-bold">Address: <span>Dhaka,Bangladesh</span></h2>
-                     <h2 className="text-xl font-bold">Email:<span>mahmudulhasan7314@gmail.com</span></h2>
-                     <h2 className="text-xl font-bold">Phone: <span>+8801789267314</span> </h2>
+                <div className="space-y-3 text-left lg:w-1/2 w-full lg:px-0 px-4 lg:pl-28 py-4">
+                    <h2 className="lg:text-3xl text-2xl lg:font-extrabold font-bold text-green-500">Personal Information</h2>
+                    <h2 className="lg:text-xl text-lg font-bold">Name: <span className="text-lg font medium">Mahmodul Hasan Robin</span></h2>
+                    <h2 className="lg:text-xl text-lg font-bold">Age: <span className="text-lg font medium">22 Years</span></h2>
+                     <h2 className="lg:text-xl text-lg font-bold">Address: <span>Dhaka,Bangladesh</span></h2>
+                     <h2 className="lg:text-xl text-lg font-bold">Email:<span>mahmudulhasan7314@gmail.com</span></h2>
+                     <h2 className="lg:text-xl text-lg font-bold">Phone: <span>+8801789267314</span> </h2>
                 </div>
                </div>
                 

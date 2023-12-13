@@ -2,12 +2,12 @@
 
 const Skills = () => {
     return (
-        <div className="py-14">
-             <div className="flex justify-center py-14">
+        <div className="py-10">
+             <div className="flex justify-center py-8">
                 <button className=" border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Skills</button>
             </div>
-           <div className="pl-32">
-            <h2 className="text-gray-700 text-lg font-bold py-10">Using Now: </h2>
+           <div className="lg:pl-32 md:px-16">
+            <h2 className="text-gray-700 text-lg font-bold lg:px-0 px-10 py-10">Using Now: </h2>
             <div className="px-10">
               <div className="no-underline grid lg:grid-cols-4 md:grid-cols-3 grid-cols-3 space-y-6">
               <h2 className="py-2"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="70" viewBox="0 0 85 100" fill="none">
