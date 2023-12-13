@@ -4,7 +4,7 @@
 
 const AboutMe = () => {
     return (
-        <div className="bg- drop-shadow-lg ">
+        <div className="bg-white ">
             <div className="">
                 <div className="flex justify-center py-14">
                 <button className=" border-solid border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">About Me</button>
@@ -35,7 +35,7 @@ const AboutMe = () => {
 
                 </div>
                 <div className="space-y-3 text-left w-1/2 lg:pl-28 py-4">
-                    <h2 className="text-lg font-extrabold">Personal Information</h2>
+                    <h2 className="text-3xl font-extrabold text-green-500">Personal Information</h2>
                     <h2 className="text-xl font-bold">Name: <span className="text-lg font medium">Mahmodul Hasan Robin</span></h2>
                     <h2 className="text-xl font-bold">Age: <span className="text-lg font medium">22 Years</span></h2>
                      <h2 className="text-xl font-bold">Address: <span>Dhaka,Bangladesh</span></h2>
