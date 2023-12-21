@@ -1,18 +1,17 @@
-import { Link} from "react-router-dom";
 
+import { } from "react-router-dom";
 const Navbar = () => {
     const navOptions = <>
-
-    <li className="text-md font-bold"><Link to="/">Home</Link></li>
-    <li className="text-md font-bold"><Link to="/aboutme">About Me</Link></li>
-    <li className="text-md font-bold"><Link to="/skills">Skills</Link></li>
-    <li className="text-md font-bold"><Link to="/portfolio">PortFolio</Link></li>
-    <li className="text-md font-bold"><Link to="/education">Education</Link></li>
-    <li className="text-md font-bold"><Link to="/contact">Contact</Link></li>
+    <li className="text-md font-bold text-[#a3a1c0]"><a href ="/#" >Home</a></li>
+    <li className=" text-md font-bold text-[#a3a1c0]"><a href ="#aboutme" >About Me</a></li>
+    <li className="text-md font-bold text-[#a3a1c0]"><a href="#skills">Skills</a></li>
+    <li className="text-md font-bold text-[#a3a1c0]"><a href="#portfolio">PortFolio</a></li>
+    <li className="text-md font-bold text-[#a3a1c0]"><a href="#education">Education</a></li>
+    <li className="text-md font-bold text-[#a3a1c0]"><a href="#contact">Contact</a></li>
   
     <div className="lg:px-32">
-    <button className="btn btn-outline lg:font-bold text-md">
-  <a href="https://drive.google.com/uc?export=download&id=1-cLRW6NCRn5ZZcll_U-zajAG-K3LQtEH" download>
+    <button className="btn text-[#fff] bg-[#ff715e] lg:font-bold text-md">
+  <a href="https://drive.usercontent.google.com/download?id=1fLWTsMLLu6kvu05qSd2peTDDSNJI44Is&export=download&authuser=0&confirm=t&uuid=aa560129-1de4-4c4b-980b-b94e4d355cd1&at=APZUnTWBwvT5Zp56N7igSCTRSdy6:1703141178807" download>
     Download Resume
   </a>
 </button>
@@ -22,8 +21,8 @@ const Navbar = () => {
 
  </>
     return (
-        <div className=" bg-green-50 mx-w-7xl">
-           <div className="navbar max-w-screen-xl text-black px-10">
+        <div className=" max-w-7xl fixed py-2 bg-[#0A082E]">
+           <div className="navbar max-w-screen-xl text-[#8684A0] px-10">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-secondary lg:hidden">
@@ -35,7 +34,7 @@ const Navbar = () => {
 
       </ul>
     </div>
-    <a className=" lg:text-3xl lg:font-bold text-lg font-bold lg:pl-0 pl-20 lg:pr-20 "><span className="">𝓜𝓪𝓱𝓶𝓸𝓭𝓾𝓵</span></a>
+    <a className=" lg:text-3xl lg:font-bold text-lg font-bold lg:pl-0 pl-20 lg:pr-20 "><span className="text-[#ff715e] ">𝓜</span>𝓪𝓱𝓶𝓸𝓭𝓾𝓵</a>
   </div>
   <div className="navbar-center hidden lg:flex items-center">
     <ul className="menu menu-horizontal px-1">
