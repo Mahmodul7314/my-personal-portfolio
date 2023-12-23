@@ -16,9 +16,9 @@ const Contact = () => {
       };
     return (
     <div id='contact' className='bg-[#F7F9FD]' >
-    <div className="lg:pl-[36rem] pl-[10rem] py-14 md:pl-[20rem]"><button className=" border-solid text-[#272743] border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Contact</button>
+    <div className="lg:pl-[36rem] pl-[4rem] py-14 md:pl-[20rem]"><button className=" border-solid text-[#272743] border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Contact</button>
     </div>
-    <h2 className='text-4xl font-bold text-[#272743] py-6 px-20'>Get In Tuch : </h2>
+    <h2 className='lg:text-4xl text-3xl font-bold text-[#272743] py-6 px-20'>Get In Tuch : </h2>
    <div className='lg:flex-row lg:flex md:flex-col flex-col justify-center gap-10  px-20 md:mb-8 py-14'>
    <div className='lg:w-1/2 w-full lg:shadow-xl md:py-8 md:border border-[#acacbc] rounded-md lg:border-2 md:px-8'>
         <div className='flex gap-2 py-2'>< h2 className='text-lg text-[#272743] font-bold'>Call Me </ h2 > <p>+8801789267314</p></div>
@@ -28,14 +28,14 @@ const Contact = () => {
         
     </div>
     <div className='lg:w-1/2 w-full border-[#acacbc] border-2 shadow-xl rounded-md py-8'>
-    <form className='text-center px-8' ref={form} onSubmit={sendEmail}>
+    <form className='text-center lg:px-8 px-2' ref={form} onSubmit={sendEmail}>
      <div className='flex items-center'>
      <label className='px-2'>Name :</label>
-      <input className='w-[24rem] bg-amber-50 py-1 my-2 border' type="text" name="from_name" /> 
+      <input className='lg:w-[24rem] w-[18rem] bg-amber-50 py-1 my-2 border' type="text" name="from_name" /> 
      </div>
       <div className='flex items-center'>
       <label className='px-3'>Email:</label>
-      <input className='w-[24rem] pl-4 bg-amber-50 py-1 my-2 border' type="email" name="from_email" />
+      <input className='lg:w-[24rem] w-[18rem] lg:pl-4 bg-amber-50 py-1 my-2 border' type="email" name="from_email" />
       </div>
       <div className='flex items-center'>
       <label className=''>Message: </label>

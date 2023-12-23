@@ -34,7 +34,7 @@ const AboutMe = () => {
                 If you're looking for a Front-End Developer with a blend of expertise, ongoing learning, and practical experience in Firebase user authentication, I encourage you to explore my detailed resume. Let's connect to discuss how my evolving skills can contribute to your projects with precision and dedication to creating exceptional user experiences.</p> */}
 
                 </div>
-                <div className="space-y-3 text-left lg:w-1/2 w-full lg:px-0 px-4 lg:pl-28 py-4">
+                <div className="space-y-3 lg:text-left text-center lg:w-1/2 w-full lg:px-0 px-4 lg:pl-28 py-4">
                     <h2 className="lg:text-3xl text-2xl lg:font-extrabold font-bold text-[#272743]">Personal Information</h2>
                     <h2 className="lg:text-xl text-lg font-bold text-[#272743]">Name: <span className="text-lg font medium">Mahmodul Hasan Robin</span></h2>
                     <h2 className="lg:text-xl text-lg font-bold text-[#272743]">Age: <span className="text-lg font medium">22 Years</span></h2>
