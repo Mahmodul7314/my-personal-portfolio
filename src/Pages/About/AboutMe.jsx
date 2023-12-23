@@ -6,11 +6,11 @@ const AboutMe = () => {
     return (
         <div id="aboutme" className=" bg-[#F7F9FD] lg:pb-12">
             <div className=" lg:pt-8">
-                <div className="flex justify-center py-14 lg:py-20">
+                <div className="flex justify-center md:flex-row md:flex py-14 lg:py-20">
                 <button className=" border-solid border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">About Me</button>
                 </div>
-               <div className="lg:flex lg:flex-row flex-col ">
-               <div className="space-y-2 lg:px-10 px-4 lg:w-1/2 w-full py-4">
+               <div className="lg:flex md:flex md:flex-row lg:flex-row flex-col ">
+               <div className="space-y-2 lg:px-10 px-4 text-justify lg:w-1/2 w-full py-4 md:px-4">
               <p className="text-md font-medium text-[#272743]"> 
                     I am an accomplished Front-End Developer, dedicated to crafting immersive and intuitive user interfaces. Proficient in HTML, CSS, and JavaScript, with a specialization in React, I excel in building dynamic, component-based applications that prioritize seamless user interactions.
 

@@ -12,7 +12,7 @@ const Portfolio = () => {
             <p className="text-md font-normal text-[#272743]">Things I have built so far</p>
            </div>
             <div className="pt-8">
-            <ul className="no-underline lg:flex justify-center gap-4 text-[#6565a4] lg-px-0 px-20">
+            <ul className="no-underline lg:flex justify-center gap-4 text-[#6565a4] lg-px-0 md:flex px-20">
                   <li className="border-2 border-[#6565a4] px-2 py-2 rounded-lg">Tailwind</li>
                   <li className="border-2 border-[#6565a4] px-2 py-2 rounded-lg">React</li>
                   <li className="border-2 border-[#6565a4] px-2 py-2 rounded-lg">Node.JS</li>
@@ -24,8 +24,8 @@ const Portfolio = () => {
             </div>
            </div>
 
-            <div className="lg:flex-row-reverse  flex-col justify-around bg-[#0A082E] py-14">
-           <div className="flex shadow-[0_0_10px_#374151] max-w-2xl mx-auto justify-center items-center bg-gray-700 rounded-xl p-10 my-8">
+            <div className="lg:flex lg:flex-row-reverse flex-col lg:justify-around bg-[#0A082E] py-14">
+           <div className=" lg:justify-start flex shadow-[0_0_10px_#374151] max-w-2xl mx-auto justify-center items-center bg-gray-700 rounded-xl p-10 my-8">
             <div
             className="bg-[#a3a1c0] mx-auto h-[200px] rounded-xl w-[200px] ease-in-out duration-[6000ms] bg-cover bg-top hover:bg-bottom"
             style={{

@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="App">
       <div className="py-12 bg-[#0A082E]">
-        <div className="lg:h-[80vh] md:h-[160vh] h-[200vh] px-10 w-3/2 lg:flex-row flex flex-col lg:items-center lg:justify-around pt-24">
+        <div className="lg:h-[80vh] md:h-[200vh] h-[220vh] px-10 w-3/2 lg:flex-row flex flex-col lg:items-center lg:justify-around pt-24">
           <div className="lg:py-24 py-10 ">
             <p className='text-3xl font-bold text-[#a3a1c0] flex items-center gap-4 py-4'>Hi! I am Mahmodul Hasan <span> <span className="">
                 <img className="w-8 h-8" src="https://i.ibb.co/j32jqvK/wave.png" alt="" />
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
           </div>
           <div className="lg:px-0 px-14 lg:pb-10">
-            <img className="lg:w-[24rem] rounded-full lg:h-[24rem] border-4 border-[#FF6D5A] " src="https://i.ibb.co/fGL0XzD/dc8c07b4-7062-4009-ba29-82a10092ae88-removebg-preview.png" alt="" />
+            <img className="lg:w-[24rem] md:pl-8 rounded-full lg:h-[24rem] border-4 border-[#FF6D5A] " src="https://i.ibb.co/fGL0XzD/dc8c07b4-7062-4009-ba29-82a10092ae88-removebg-preview.png" alt="" />
           </div>
         </div>
       </div>

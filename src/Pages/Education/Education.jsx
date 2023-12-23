@@ -3,11 +3,11 @@
 
 const Education = () => {
     return (
-      <div id="education" className="bg-[#F7F9FD] py-12 lg:px-10 px-2 pt-20">
+      <div id="education" className="bg-[#F7F9FD] py-12 lg:px-10 md:px-14 px-2 pt-20">
         <h2 className="font-bold text-3xl text-center lg:pb-0 pb-14 text-[#12103E]">Educational Qualification</h2>
          <div className="lg:flex md:flex-row flex-col justify-center items-center">
-          <div className="lg:w-1/2 w-full flex justify-left">
-            <img className="lg:w-3/4 w-full h-64 rounded-2xl" src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" alt="" />
+          <div className="lg:w-1/2 w-full flex md:flex justify-left">
+            <img className="lg:w-3/4 w-full h-64 md:h-80 rounded-2xl" src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" alt="" />
           </div>
          <div className="py-20 space-y-4 text-[#12103E] lg:w-1/2 w-full">
          <h2 className="font-bold text-lg text-[#12103E] flex items-center "><span><img className="w-20 h-20 bg-green-50" src="https://img.freepik.com/premium-vector/graduation-cap-symbol-education-illustration-design_92086-772.jpg?size=626&ext=jpg&uid=R40507079&ga=GA1.1.158317514.1699199683&semt=ais" alt="" /></span>
