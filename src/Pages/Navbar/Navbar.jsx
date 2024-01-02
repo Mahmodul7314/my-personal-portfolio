@@ -11,7 +11,7 @@ const Navbar = () => {
   
     <div className="lg:px-32">
     <button className="btn text-[#fff] bg-[#ff715e] lg:font-bold text-md">
-  <a href="https://drive.usercontent.google.com/download?id=1fLWTsMLLu6kvu05qSd2peTDDSNJI44Is&export=download&authuser=0&confirm=t&uuid=aa560129-1de4-4c4b-980b-b94e4d355cd1&at=APZUnTWBwvT5Zp56N7igSCTRSdy6:1703141178807" download>
+  <a href="https://drive.usercontent.google.com/download?id=1M1L4edOXwyLGGVFSaWvA9nN0OK4fhfxL&export=download&authuser=0&confirm=t&uuid=44da2935-b9a8-4a57-a6b5-bff8267e8b1e&at=APZUnTXPiw7KC0BFZ79JXt2903O2:1704173062218" download>
     Download Resume
   </a>
 </button>
