@@ -27,10 +27,10 @@ const Contact = () => {
         <div  className='flex gap-2 py-2'><h2 className='text-lg text-[#272743] font-bold'>Location </h2> <address>Tangail,Dhaka,Bangladesh</address></div>
         
     </div>
-    <div className='lg:w-1/2 w-full border-[#acacbc] border-2 shadow-xl rounded-md py-8'>
+    <div className='lg:w-1/2 w-full border-[#acacbc] md:border-2 lg:border-2 border-0 md:shadow-xl lg:shadow-xl rounded-md py-8'>
     <form className='text-center lg:px-8 px-2' ref={form} onSubmit={sendEmail}>
      <div className='flex items-center'>
-     <label className='px-2'>Name :</label>
+     <label className='px-2'>Name:</label>
       <input className='lg:w-[24rem] w-[18rem] bg-amber-50 py-1 my-2 border' type="text" name="from_name" /> 
      </div>
       <div className='flex items-center'>

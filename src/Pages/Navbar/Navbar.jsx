@@ -21,8 +21,8 @@ const Navbar = () => {
 
  </>
     return (
-        <div className="max-w-7xl  fixed py-2 bg-[#0A082E]">
-           <div className="navbar max-w-screen-xl   text-[#8684A0] px-10">
+        <div className="lg:max-w-full md:max-w-full max-w-full  fixed py-2 bg-[#0A082E]">
+           <div className="navbar max-w-full   text-[#8684A0] px-10">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-secondary lg:hidden">

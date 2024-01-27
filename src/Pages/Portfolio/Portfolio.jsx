@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
     return (
-        <div id="portfolio" className="max-w-7xl py-14">
+        <div id="portfolio" className="max-w-full py-14">
             <div className="">
             <div className="py-10 text-center">
               {/* <div className="relative"><img className="w-full shadow-xl opacity-50 lg:h-4 h-10" src="../../../public/banner.webp" alt="" /></div> */}
-            <div className=" lg:pl-[36rem] pl-[10rem] md:pl-[20rem]"><button className=" border-solid text-[#272743] border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Portfolio</button></div>
+            <div className=" lg:pl-[35rem] pl-[10rem] md:pl-[20rem]"><button className=" border-solid text-[#272743] border-gray-700 px-4 py-2 border-2 text-xl font-extrabold flex justify-center">Portfolio</button></div>
            <div className="py-10 space-y-3">
-           <h2 className="text-3xl font-bold text-[#272743]">Projects</h2>
+           <h2 className="text-3xl  font-bold text-[#272743]">Projects</h2>
             <p className="text-md font-normal text-[#272743]">Things I have built so far</p>
            </div>
             <div className="pt-8">
